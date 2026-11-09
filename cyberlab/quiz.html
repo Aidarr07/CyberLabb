@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CyberLab — Тест</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+    <header class="header">
+
+        <a href="index.html" class="logo">
+            Cyber<span>Lab</span>
+        </a>
+
+        <nav class="nav">
+
+            <a href="index.html">Главная</a>
+
+            <a href="lessons.html">Уроки</a>
+
+            <a href="quiz.html">Тест</a>
+
+            <a href="about.html">О проекте</a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="quiz-page">
+
+            <div class="section-title">
+
+                <p class="eyebrow">
+                    KNOWLEDGE CHECK
+                </p>
+
+                <h1>
+                    Проверь свои знания
+                </h1>
+
+                <p>
+                    Ответь на 5 вопросов по основам
+                    кибербезопасности.
+                </p>
+
+            </div>
+
+
+            <div class="quiz-container">
+
+                <div class="quiz-progress">
+
+                    <div class="quiz-progress-top">
+
+                        <span id="question-number">
+                            Вопрос 1 / 5
+                        </span>
+
+                        <span id="score">
+                            0 баллов
+                        </span>
+
+                    </div>
+
+
+                    <div class="progress-bar">
+
+                        <div
+                            class="quiz-progress-fill"
+                            id="quiz-progress">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="quiz-card">
+
+                    <h2 id="question">
+                        Загрузка вопроса...
+                    </h2>
+
+
+                    <div
+                        class="answers"
+                        id="answers">
+                    </div>
+
+
+                    <p id="quiz-result"></p>
+
+
+                    <button
+                        class="next-button"
+                        id="next-button"
+                        onclick="nextQuestion()">
+
+                        Следующий вопрос →
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="logo">
+            Cyber<span>Lab</span>
+        </div>
+
+        <p>
+            Создано Айдаром • 2026
+        </p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
